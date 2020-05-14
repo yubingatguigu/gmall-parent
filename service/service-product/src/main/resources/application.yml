@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: service-product
+  profiles:
+    active: dev  #在这个文件中在读取一个application-dev.yml文件
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.200.128:8848
